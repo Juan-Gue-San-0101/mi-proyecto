@@ -1,0 +1,36 @@
+# Entorno virtual de Python
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Modelos y pesos (pesados, regenerables)
+*.pth
+*.onnx
+*.onnx.data
+*.pt
+weights/
+
+# Resultados de inferencia (regenerables)
+out_test_single/
+out_test_50/
+out_test_50 (2)/
+out_test_50.zip
+muestra_test/
+
+# Logs
+logs/
+*.log
+training_log_*.csv
+
+# Datasets (van en Hugging Face o similar)
+Dataset/
+*.zip
+
+# Sistema
+.DS_Store
+*.swp
